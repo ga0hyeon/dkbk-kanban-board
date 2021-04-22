@@ -1,6 +1,6 @@
 {
   "name": "dkbk-kanban-board",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react kanban board library with typescript support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
