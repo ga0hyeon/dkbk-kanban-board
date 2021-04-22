@@ -1,0 +1,24 @@
+{
+  "name": "dkbk-kanban-board",
+  "version": "0.0.1",
+  "description": "react kanban board library with typescript support",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ga0hyeon/dkbk-kanban-board.git"
+  },
+  "keywords": [
+    "react",
+    "kanbanboard",
+    "typescript"
+  ],
+  "author": "gayoung hyeon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ga0hyeon/dkbk-kanban-board/issues"
+  },
+  "homepage": "https://github.com/ga0hyeon/dkbk-kanban-board#readme"
+}
