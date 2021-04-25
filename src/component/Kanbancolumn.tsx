@@ -5,7 +5,7 @@ export interface KanbancolumnProps {
   desc?: string;
 }
 
-const Kanbancolumn: React.FC<KanbancolumnProps> = ({
+export const Kanbancolumn: React.FC<KanbancolumnProps> = ({
   title,
   desc,
   children,
@@ -18,5 +18,3 @@ const Kanbancolumn: React.FC<KanbancolumnProps> = ({
     </div>
   );
 };
-
-export default Kanbancolumn;

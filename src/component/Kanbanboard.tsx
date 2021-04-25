@@ -5,7 +5,11 @@ export interface KanbanboardProps {
   desc?: string;
 }
 
-const Kanbanboard: React.FC<KanbanboardProps> = ({ title, desc, children }) => {
+export const Kanbanboard: React.FC<KanbanboardProps> = ({
+  title,
+  desc,
+  children,
+}) => {
   return (
     <div id="Kanbanboard">
       {title && <div className="title">{title}</div>}
@@ -14,5 +18,3 @@ const Kanbanboard: React.FC<KanbanboardProps> = ({ title, desc, children }) => {
     </div>
   );
 };
-
-export default Kanbanboard;

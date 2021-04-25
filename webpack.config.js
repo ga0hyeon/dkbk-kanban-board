@@ -1,8 +1,11 @@
 var path = require("path");
 
 module.exports = {
+  resolve: {
+    extensions: [".ts", ".tsx", ".scss", ".css", ".js", ".jsx"],
+  },
   entry: {
-    main: ["./src/index.tsx"],
+    main: ["./src/index.ts"],
   },
   output: {
     path: path.resolve(__dirname, "./dist"),
@@ -43,4 +46,5 @@ module.exports = {
       },
     ],
   },
+  watch: true,
 };
